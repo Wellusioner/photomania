@@ -1,0 +1,16 @@
+.spinner {
+    display: inline-block;
+    pointer-events: none;
+    width: 1.7em;
+    height: 1.7em;
+    border: 0.2em solid #eee;
+    border-top-color: #3E67EC;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg)
+    }
+}
