@@ -26,6 +26,10 @@
     "typeface-roboto": "0.0.75",
     "use-lodash-debounce-throttle": "^0.3.5"
   },
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
