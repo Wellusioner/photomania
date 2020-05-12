@@ -102,21 +102,21 @@ const ImageList  = ({ setPage }) => {
                             </GridList>
                             : null
                     }
-                    {
-                        images.length ?
-                            <Box
-                                paddingY={3}
-                                display={'flex'}
-                                justifyContent={'center'}
-                            >
-                                <Button
-                                    variant="contained"
-                                    color={'primary'}
-                                    onClick={setPage}
-                                >{isLoading ? 'Loading...' : 'More images'}</Button>
-                            </Box>
-                            : null
-                    }
+                    {/*{*/}
+                        {/*images.length ?*/}
+                            {/*<Box*/}
+                                {/*paddingY={3}*/}
+                                {/*display={'flex'}*/}
+                                {/*justifyContent={'center'}*/}
+                            {/*>*/}
+                                {/*<Button*/}
+                                    {/*variant="contained"*/}
+                                    {/*color={'primary'}*/}
+                                    {/*onClick={setPage}*/}
+                                {/*>{isLoading ? 'Loading...' : 'More images'}</Button>*/}
+                            {/*</Box>*/}
+                            {/*: null*/}
+                    {/*}*/}
                 </Box>
             </Container>
         </div>
